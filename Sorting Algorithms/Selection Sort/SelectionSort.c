@@ -1,7 +1,7 @@
 /* C program for Selection Sort Algorithms*/
 
 #include<stdio.h>
-// swap using poiter
+
 void swap(int *a, int *b)
 {
     int temp = *b;
@@ -21,13 +21,9 @@ void SelectionSort(int array[],int size)
                 min_index = j;
         }
 
-        /* 
-        
-        int temp = array[min_index];
+        /* int temp = array[min_index];
          array[min_index] = array[i];
-         array[i]= temp;
-        
-        */
+         array[i]= temp;*/
 
         swap(&array[i], &array[min_index]);
 
@@ -42,9 +38,6 @@ void printArray(int array[],int size)
         printf("%d  ",array[i] );
     }
 }
-
-
-
 
 int main()
 {
