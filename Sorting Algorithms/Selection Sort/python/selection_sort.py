@@ -9,7 +9,7 @@ def selection_sort(array, size):
         (array[min_index], array[i]) = (array[i], array[min_index])
 
 
-data = [64, 12, 22, 25, 11, 23, 100, 99]
+data = [3, 11, 23, 6, 1, 15]
 size = len(data)
 selection_sort(data, size)
 print(data)

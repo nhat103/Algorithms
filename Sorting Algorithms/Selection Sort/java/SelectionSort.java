@@ -23,7 +23,7 @@ public class Selection_sort {
 	}
 	
 	public static void main(String[] args) {	
-		int[] data = {64, 12, 22, 25, 11, 23, 100, 99};
+		int[] data = {3, 11, 23, 6, 1, 15};
 		
 		Selection_sort s_sorted =  new Selection_sort();
 		s_sorted.Select_sorted(data);
